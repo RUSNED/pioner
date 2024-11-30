@@ -172,8 +172,9 @@ body {
 .products__cards {
     display: grid;
     grid-template-columns: repeat(3,380px);
-    grid-template-rows: repeat(3,435px);
-    grid-gap: 20px;
+    grid-template-rows: repeat(2,435px);
+    row-gap: 25px;
+    column-gap: 20px;
     background-color: #fff;
     color: #444;
     padding-top: 32px;
@@ -182,12 +183,11 @@ body {
   .products__card-item {
     background-color: #F5F5F5;
     border-radius: 5px;
-    padding: 20px;
     font-size: 150%;
-    padding: 32px 156px 32px 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 32px 0px 32px 24px;
   }
   .products__image {
     width: 200px;
@@ -211,4 +211,16 @@ body {
     line-height: 24px;
     text-align: left;
     color: #607CE6;
+  }
+
+  .map__header {
+    padding: 80px 130px 0px 130px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+  }
+
+  .image__map {
+    padding: 32px 130px 0px 130px;
   }
