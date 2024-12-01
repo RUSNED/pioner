@@ -297,3 +297,18 @@ body {
   text-decoration-skip-ink: none;
   color: #888888;
 }
+
+.footer {
+  background-color:#333333;
+}
+.footer__content {
+    padding: 80px 130px 0px 130px;
+    display: flex;
+}
+
+.footer__logo {
+    height: 38px;
+    width: 180px;
+    background: no-repeat center;
+    padding-top: 56px;
+  }
